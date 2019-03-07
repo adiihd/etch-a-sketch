@@ -4,4 +4,10 @@ const black = document.querySelector("#black");
 const color = document.querySelector("#start");
 const div = document.createElement('div');
 
-container.appendChild(div);
+
+
+function startGrid(size){
+    for(let i = 0; i < size; i++){
+        container.appendChild(div);
+    }
+}
