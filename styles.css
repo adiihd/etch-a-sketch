@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css?family=Fredoka+One|Overlock');
+* {
+    background-color: #6B6E70;
+    margin-bottom: 15px;
+    color: #222629;
+    text-align: center;
+}
+
+h1{
+    font-family: 'Fredoka One', cursive;
+    font-size: 68px;
+}
+
+h2{
+    font-family: 'Overlock', cursive;
+    font-size: 20px;
+    color: #86C232;
+    padding-bottom: 10px;
+    margin-top: -20px;
+}
+
+.buttons{
+    padding: 30px;
+}
+
+button{
+    width: 240px;
+    padding: 12px 28px;
+    border-radius: 4px;
+    text-transform: uppercase;
+    font-size: 30px;
+    color:#86C232;
+    background-color: #6B6E70;
+    border: 3px solid #222629;
+    font-family: 'Overlock', cursive;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+
+button:hover{
+    background-color: #222629;
+}
+
+
+#container {
+    background-color: white;
+    position: relative;
+    top: 15px;
+    outline: 1px solid #000;
+    font-size: 0;
+    margin: auto;
+    height:600px;
+    width:600px;
+    padding: 0;
+    border: none;
+    display: none0
+}
+
+.grid {
+	margin:0;
+	padding:0;
+	border:none;
+	outline:1px solid #000;
+	display:inline-block;
+}
