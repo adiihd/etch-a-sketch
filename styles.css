@@ -63,3 +63,14 @@ button:hover{
 	outline:1px solid #000;
 	display:inline-block;
 }
+
+.square 
+{
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+
+    height: 2.5rem;
+    width: 2.5rem;
+    background-color: white;
+}
