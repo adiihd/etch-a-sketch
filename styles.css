@@ -56,21 +56,23 @@ button:hover{
     display: none0
 }
 
-.grid {
-	margin:0;
-	padding:0;
-	border:none;
-	outline:1px solid #000;
-	display:inline-block;
-}
+.grid-container {
+    border: 2px solid black;
+    height: 600px;
+    width: 600px;
+    margin: 20px auto;display: grid;
+    align-content: start;
+    overflow: hidden;
+  }
 
-.square 
-{
-    display: table-cell;
-    vertical-align: middle;
-    text-align: center;
-
-    height: 2.5rem;
-    width: 2.5rem;
-    background-color: white;
-}
+.pixel {
+    margin: 0;
+    padding: 0;
+    border: 1px solid grey;
+    align-self: start
+  }
+  
+  .permhover {
+    background-color: black;
+  }
+  
